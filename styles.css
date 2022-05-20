@@ -95,6 +95,22 @@ body {
     background: #2596be;
     transition: all .15s ease-in-out;
     box-shadow: 3px 3px 30px #0000008a;
+    transition: padding 0.5s;
+}
+
+.mdo-social-btn:hover {
+    padding: 19px;
+}
+
+
+
+@keyframes grow {
+    from {
+        padding: 15px;
+    }
+    to {
+        padding: 19px;
+    }
 }
 
 @keyframes fade {
